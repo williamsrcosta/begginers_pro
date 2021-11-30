@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form name="dados">
+        <div>
+            <label for="valor1">Valor 1: </label>
+            <input type="text" name="valor1" id="valor1" placeholder="digite o 1º Valor" required>
+        </div>
+        <div>
+            <label for="valor2">Valor 2: </label>
+            <input type="text" name="valor2" id="valor2" placeholder="digite o 2º Valor" required>
+        </div>
+        <div class="button">
+            <input type="button" value="+" name="soma"       id="bt1" onclick="somar()">
+            <input type="button" value="-" name="subtrai"    id="bt2" onclick="subtrair()">
+            <input type="button" value="*" name="multiplica" id="bt3" onclick="multiplicar()">
+            <input type="button" value="/" name="dividi"     id="bt4" onclick="dividir()">
+        </div>
+    </form>
+
+    <div id="Resultado:">
+        <h3>O Resultado é:</h3>
+        <p id="resultadop"></p>
+    </div>
+    
+    <script src="script.js"></script>   
+</body>
+</html>

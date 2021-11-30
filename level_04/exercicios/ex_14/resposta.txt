@@ -1,0 +1,43 @@
+O forEach executa o callback fornecido uma vez para cada elemento da ordem com um valor atribuido. 
+Ele não é invocado para propriedades de índices que foram deletados ou que não foram inicializados 
+(por ex. em arrays esparsos).
+
+callback é invocado com três argumentos:
+
+o valor do elemento
+o índice do elemento
+o array que está sendo percorrido
+Se um parâmetro thisArg for passado para forEach(), ele será passado para o callback  quando 
+invocado como valor para this.  Caso contrário, o valor undefined será passado como valor para 
+this. O valor de this assumido no callback é determinado de acordo com as regras usuais para 
+determinação do this visto por uma função.
+
+O intervalo dos elementos processados por forEach() é determinado antes da primeira invocação 
+do callback. Elementos que forem adicionados ao array depois da chamada ao forEach() começar 
+não serão visitados pelo callback. Se os valores dos elementos existentes do array forem alterados, 
+o valor passado para o callback será o valor no momento em que o forEach() visitá-los; elementos 
+que forem deletados antes de serem visitados não serão visitados.
+
+forEach() executa a a função callback uma vez para cada elemento do array – diferentemente de map() 
+ou reduce(), ele sempre retorna o valor undefined e não é encadeável. O caso de uso típico 
+é alterar o array no final do loop.
+
+A única maneira de parar ou interromper um loop forEach() é disparando uma exceção. Se você 
+precisa desse recurso, o método forEach() é a ferramenta errada. Você estará mais bem servido 
+com um loop simples nesse caso. Se estiver testando o array de elementos para um predicado e 
+precisar de um valor de retorno Boleano, você pode usar every() ou some(). Se estiverem 
+disponíveis, os novos métodos find() e findIndex() também podem ser usados para terminação 
+antecipada em predicados verdadeiros.
+
+Exemplos
+Imprimindo os conteúdos de uma ordem
+Os códigos a seguir logam uma linha para cada elemento na ordem:
+
+function logArrayElements(element, index, array) {
+    console.log("a[" + index + "] = " + element);
+}
+[2, 5, 9].forEach(logArrayElements);
+// logs:
+// a[0] = 2
+// a[1] = 5
+// a[2] = 9

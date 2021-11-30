@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/*
+section{
+    background-color: #149926;
+    width: 1125px;
+}
+
+div{
+    background-color: #5f1786;
+    width: 140px;
+    height: 140px;
+    margin: 100px;
+    border-radius: 5%;
+}
+*/
+div{
+    margin: 10px;
+    background: purple;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    margin: 100px;
+    display: flex;
+    background-color: green;
+    border-radius: 15px;
+    flex-direction: column;
+}

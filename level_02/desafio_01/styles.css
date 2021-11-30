@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    background-color: black;
+    padding: 05px;
+    height: 70px;
+}
+
+header img{
+    padding: 05px;
+    height: 70px;
+}
+
+#botoes {
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+}
+
+section{
+    background-color: black;
+    color: white;
+    width: 550px;
+    height: 440px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+section h2{
+    text-align: center;
+    padding: 5px;
+}
+
+section p{
+    text-align: justify;
+    padding: 0 20px;
+
+}
+
+section div img{
+    width: 500px;
+    height: 274px;
+    padding: 30px;
+}
+
+#botoes a {
+    background-color: blue;
+    border-radius: 60px;
+    font-size: 28px;
+    padding: 10px;
+    font-weight: 900;
+    text-decoration: none;
+
+}

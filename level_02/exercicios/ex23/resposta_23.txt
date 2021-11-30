@@ -1,0 +1,17 @@
+Atributo style
+O atributo style é mais uma maneira de adicionar estilo, basicamente é um atributo que passamos dentro do elemento que
+queremos dar estilo:
+<div style="background-color: red">
+conteúdo
+</div>
+Dentro do atributo style colocamos como valor a sintaxe do CSS como conhecemos até o momento.
+
+Folha de estilo externa
+Uma coisa bacana é separar as responsabilidades em cada arquivo, HTML no arquivo .html e CSS no arquivo .css, para tal,
+vamos criar um arquivo .css chamado styles.css .
+Porém para que tudo funcione precisamos importar o CSS dentro do nosso HTML, fazemos isso dentro do head:
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+Nesse momento podemos fazer o que já fazíamos antes: selecionar elementos do HTML e adicionar o estilo que quisermos

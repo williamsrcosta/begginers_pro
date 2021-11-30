@@ -1,0 +1,24 @@
+Math.round(x) → Retorna o valor de um número arredondado para o inteiro mais próximo. Um exemplo de parâmetro que
+podemos ter é '0.5'. Caso tenha um valor maior que esse, será arredondado para o inteiro maior. Caso seja menor, será
+arredondado para o inteiro menor.
+Exemplos de uso:
+Math.round(42); // 42
+Math.round(20.49); // 20
+Math.round(20.5); // 21
+Math.round(5.95); // 6
+Math.round(5.5); // 6
+Math.round(5.05); // 5
+Math.round(-20.5 ); // -20
+Math.round(-20.51); // -21
+
+Math.trunc(x) → Retorna a parte inteira de um número removendo quaisquer dígitos fracionários. Aceita valores positivos e
+negativos, seu trabalho é apenas "cortar" as casas decimais e retornar a parte inteira:
+Exemplos de uso:
+Math.trunc(42.84); // 42
+Math.trunc(13.37); // 13
+Math.trunc(0.123); // 0
+Math.trunc(-0.123); // -0
+Math.trunc('-1.123'); // -1
+Math.trunc(NaN); // NaN
+Math.trunc('Facul'); // NaN
+Math.trunc(); // NaN

@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header nav{
+    
+    padding: center ;
+    border: center;
+    background-color: black;
+    padding: 15px 25px ;
+    
+}
+
+header nav a{
+
+    padding: 80px ;
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: orange;
+}
+
+#hrv_inicial img{
+    width: 1348px;
+    height: 487px;
+}
+
+main img{
+    width: 1348px;
+    height: 487px;
+}
+
+main section{
+    background-color: black;
+}
+
+main div{
+    background-color: black;
+}
+
+main h1{
+    text-align: center;
+    color: white;
+
+}
+
+main h2{
+    text-align: center;
+    color: white;
+}
+
+main p{
+    text-align: justify;
+    color: white;
+}
+
+footer{
+    background-color: #070707;
+}
+
+footer div {
+    width: 500px;
+    margin: auto;
+    background-color: #070707;
+}
+
+footer div img{
+    width: 50px;
+    height: 50px;
+    padding: 0px 30px ;
+}

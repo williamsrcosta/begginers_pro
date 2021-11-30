@@ -1,0 +1,8 @@
+'string text'
+"string text"
+`string text`
+
+são esses três tipos de inserção.
+
+os dois primeiros aceitam string's e o terceiro que é a crase,
+dentro dela aceita também uma variavel ou uma função colocando em $ e parenteses

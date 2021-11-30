@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif;
+}
+
+ .area {
+  position:relative;
+  left:37%;
+  top:29%;
+  width:500px;
+  height:300px;
+  clear: both;
+}
+
+.area .formulario {
+  position:absolute;
+  display:block;
+}
+
+fieldset {
+  
+  width:500px;
+  height:250px;
+  clear: both;
+} 
+
+.area input {
+    width: 85%;
+    clear: both;
+    margin: 12px;
+}
+
+legend {
+  font-style:bold;
+  font-size: 20px;
+  margin: 12px;
+}
+
+.area formulario label {
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+}
+
+#botaocalcular
+{
+  border-style:none;
+  position:relative;
+  bottom: 0.5em;
+  right:10px;
+  padding: 10px;
+  margin: 05px 20px;
+  background-color:#2861ca;
+
+}
+
+.area{
+    background-color:#A7C0DC;  
+}
+
+body{
+    background-color: black;
+}

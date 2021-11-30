@@ -1,0 +1,5 @@
+Um vetor com 4 objetos dentro
+e em cada que cada objeto com as seguintes propriedas:
+nome
+sobrenome
+idade

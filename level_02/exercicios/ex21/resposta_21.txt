@@ -1,0 +1,5 @@
+todas as expressões em java script são para fazer a criação
+de uma variavel, a diferença entre eles são
+var   - Cria uma variavel em qualquer tipo, que vá sofrer alteração, porém não é recomendado a sua utilização.
+let   - Cria uma variavel em qualquer tipo, que vá sofrer alteração, recomendado a sua utilização.
+const - Cria uma variavel com um valor que não vai sofrer alteração durante a utilização do código.

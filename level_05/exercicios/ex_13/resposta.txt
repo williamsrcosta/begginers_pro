@@ -1,0 +1,8 @@
+JSON.stringify() - Objeto → JSON
+Como já dito, conseguimos transformar Objetos em JSON, e o método usado 
+para isso é o JSON.stringify(), ele converte os valores para uma String JSON.
+
+JSON.parse() →
+Como já vimos anteriormente, JSON é uma classe com seus próprios métodos 
+dentro de JavaScript, o segundo método que iremos ver é o método que trás 
+de volta um elemento ao seu formato original

@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header div{
+
+    background-color: black;
+    padding: 15px 25px ;
+    
+}
+
+header nav{
+    
+    padding: center ;
+    border: center;
+    
+}
+
+header nav a{
+
+    padding: 10px ;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#div_cabec img{
+    width: 739px;
+    height: 438px;
+    margin: auto;
+}
+
+body {
+    background-color: #070707;
+}
+
+span {
+    color: #1f1881;
+    font-weight: bolder;
+}
+
+div {
+    background-color: #d4e02c;
+    text-align: center;
+    margin: 10px;
+}
+
+#resultado_multiplicacao {
+    background-color: #fc0505;
+}
+
+#resultado_string {
+    background-color: #fc0505;
+}
+
+#resultado_booleano {
+    background-color: #fc0505;
+}
+
+#resultado_id {
+    background-color: #fc0505;
+}
+
+#resultado_class {
+    background-color: #fc0505;
+}
+
+#resultado_href {
+    background-color: #fc0505;
+}
+
+#resultado_src {
+    background-color: #fc0505;
+}
+
+#resultado_title {
+    background-color: #fc0505;
+}
+
+#resultado_alt {
+    background-color: #fc0505;
+}
+
+#resultado_width {
+    background-color: #fc0505;
+}
+
+footer{
+    background-color: #070707;
+}
+
+footer div {
+    width: 500px;
+    margin: auto;
+    background-color: #070707;
+}
+
+footer div img{
+    width: 50px;
+    height: 50px;
+    padding: 0px 30px ;
+}

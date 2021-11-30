@@ -1,0 +1,7 @@
+A hierarquia do CSS, é composta pelo modelo em cascata, ou seja 
+de cima para baixo, sendo que o debaixo tem maior peso sobre o de cima
+as vezes até o sobreescrevendo devido sua repetição nas linhas anteriores,
+caso tenha um ID, o peso é maior do que a tag do CSS sem ID.
+e no momento de desespero caso necessário é liberado usar o comando
+!important, onde a tag selecionada, ela é mais important que todas as outras
+repetições ficando ela em primeiro.

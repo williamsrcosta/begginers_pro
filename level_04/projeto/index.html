@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span id="ver-historico">Ver Tabela</span>
+    </header>
+    <h3>
+    <form name="dados">
+        <div class="input">
+            <label for="nome">
+                Qual seu nome?
+            </label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div class="input">
+            <label for="email">
+                Qual seu email?
+            </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="input">
+            <label for="telefone">
+                Qual seu Telefone?
+            </label>
+            <input type="number" name="telefone" id="telefone" required>
+        </div>
+        <div class="input">
+            <label for="estadocivil">
+                Qual seu Estado Civil?
+            </label>
+            <input type="text" name="estadocivil" id="estadocivil" required>
+        </div>
+        <div class="input">
+            <label for="escolaridade">
+                Qual seu Escolaridade?
+            </label>
+            <input type="text" name="escolaridade" id="escolaridade" required>
+        </div>
+        <div class="input">
+            <label for="cep">
+                Qual seu CEP?
+            </label>
+            <input type="text" name="cep" id="cep" required>
+        </div>
+        <div class="input">
+            <label for="rua">
+                Qual sua Rua?
+            </label>
+            <input type="text" name="rua" id="rua" required>
+        </div>
+        <div class="input">
+            <label for="numcasa">
+                Qual Número da casa?
+            </label>
+            <input type="number" name="numcasa" id="numcasa" required>
+        </div>
+        <div class="input">
+            <label for="complemento">
+                Qual seu Complemento?
+            </label>
+            <input type="text" name="complemento" id="complemento" required disabled>
+        </div>
+       <div class="input">
+            <button id="btncomplemento">Libera Complemento</button>
+        </div>
+        
+        <div class="input">
+            <label for="bairro">
+                Qual seu Bairro?
+            </label>
+            <input type="text" name="bairro" id="bairro" required>
+        </div>
+        <div class="input">
+            <label for="cidade">
+                Qual sua Cidade?
+            </label>
+            <input type="text" name="cidade" id="cidade" required>
+        </div>
+        <div class="input">
+            <label for="estado">
+                Qual sua Estado?
+            </label>
+            <input type="text" name="estado" id="estado" required>
+        </div>
+        <div>
+            <button id="btncadastrar">
+                Calcular
+            </button>
+        </div>
+    </form>
+    <div id="fundo-modal"></div>
+    <div id="historico">
+        <div id="conteudo-modal">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>nome</th>
+                        <th>email</th>
+                        <th>telefone</th>
+                        <th>Estado Civil</th>
+                        <th>Escolaridade</th>
+                        <th>CEP</th>
+                        <th>Rua</th>
+                        <th>Numero</th>
+                        <th>Bairro</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyresultadohistorico"></tbody>
+            </table>
+            <p id='contador'></p>
+        </div>
+        <div id="acoes">
+            <button id="fechar-historico">
+                Fechar
+            </button>
+            <button id="excluir-registros">
+                Excluir tudo
+            </button>
+        </div>
+    </div>
+    <div id="zero-registros">
+        <p>Nenhum resgistro</p>
+        <button id="btn-zero-registro">
+            Fechar
+        </button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+As Pseudo-Classes do CSS são palavras adicionadas a um seletor, 
+definindo um estado especial do elemento em questão.

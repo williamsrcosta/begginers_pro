@@ -1,0 +1,7 @@
+identificado que é uma variavel, de objeto,
+onde tem dois campos o titulo e o ano do albúm,
+depois é criada uma função que gera um alerta em tela
+que mostra a seguinte frase:
+"Título do álbum: " + this.title + "Lançado em: " + this.released
+
+onde tras os respectivos valores de this como Metallica (Black Album) e 1991

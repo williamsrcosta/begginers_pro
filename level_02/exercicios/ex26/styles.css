@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+
+}
+
+body{
+    background-color: tomato;
+}
+
+h1{
+    color: orange;
+}
+
+h2 {
+    visibility: hidden;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+div {
+    margin: 32px;
+    padding: 32px;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: justify;
+}
+a {
+    font-weight: bold;
+}
+
+button {
+    font-size: 100px;
+    border: 2px solid red;
+    width: 300px;
+    height: 200px;
+    background-image: url('imagens/peixe.jpg');
+    background-position: center center;
+}
+
+footer {
+    display: inline;
+}

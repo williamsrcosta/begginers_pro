@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif;
+}
+
+div {    
+    background-color: tomato;
+    width: 300px;
+    margin: 20px;
+    padding: 0px;
+    border: 100px;
+    
+}

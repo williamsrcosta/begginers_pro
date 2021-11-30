@@ -1,0 +1,6 @@
+O JSON ou JavaScript Object Notation é um formato leve de troca de 
+informações/dados entre sistemas, além de ser leve também é de simples 
+leitura, trata-se de um formato compactado, de padrão aberto independente, 
+criado por Douglas Crockford em 2000 de maneira a deixar trocas de dados 
+entre sistemas muito mais rápidas. Muito utilizado em diversas aplicações 
+que necessitam as trocas de dados constantes.

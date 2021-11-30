@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+#div_01 {
+    background-color: red;
+    margin: 20px 0px;
+    border-radius: 50px;
+    padding-left:50px ;
+}
+
+#txt_01 {
+    color: blue;
+}
+
+#txt_02 {
+    color: green;
+}
+
+#txt_03 {
+    color: green;
+}
+
+body {
+    background-color: black;
+}
+
+body section h1 {
+
+    text-align: center;
+    color: orange;
+
+}
+
+#a_01 {
+
+    color: red;
+    
+}
+
+#a_02 {
+
+    color:gold;
+}
+
+#a_03 {
+
+    color:gold;
+}
+
+ul li {
+    margin: 32px;
+}
+
+#img_01 {
+    width: 800px;
+}
+
+#div_02 {
+    width: 800px;
+    margin: auto;
+}

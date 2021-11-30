@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0rem;
+    font-family: sans-serif;
+}
+
+div{
+    background-color: #dacc52;
+    margin: 3%;
+    padding: 2em;
+    width: 50vh 10vw;
+}
+
+button {
+    background-color: #B00000;
+    border: 1px solid #7F0000;
+    color: #FFF;
+    text-shadow: 1px 1px 4px #000;
+    padding: 1em;
+}
+
+#botaocalcular {
+    background-color: #B00000;
+    border: 1px solid #7F0000;
+    color: #FFF;
+    text-shadow: 1px 1px 4px #000;
+    padding: 1em;
+}
+

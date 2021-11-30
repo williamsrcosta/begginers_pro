@@ -1,0 +1,6 @@
+O localStorage ou armazenamento na Web, é uma maneira de oferecer métodos 
+e protocolos para armazenar dados do lado do cliente aos aplicativos Web. 
+Basicamente podemos dizer que é como os dados de uma aplicação são salvos 
+no navegador do usuário final. Os dados salvos nesse local não expiram, 
+diferentemente por exemplo do sessionStorage, que tem seus dados limpos 
+assim que a sessão da página for expirada.

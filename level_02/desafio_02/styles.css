@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header div{
+    background-color: black;
+    
+    padding: 15px 25px ;
+    
+}
+
+header nav{
+    
+    width: 800px;
+    padding: center ;
+    border: center;
+    
+}
+
+header nav a{
+    padding: 25px ;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#div_seja_bem_vindo{
+    background-image: url('imagens/bg.png');
+    height: 300px;
+    background-position: center center;
+    padding-top: 150px;
+}
+
+#div_seja_bem_vindo h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+#div_quem_sou_eu{
+    background-color: grey;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+#div_quem_sou_eu div{
+    width: 350px;
+    margin: auto;
+}
+
+#div_quem_sou_eu img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#div_o_que_eu_faco{
+    background-color: grey;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+#div_o_que_eu_faco div{
+    width: 350px;
+    margin: auto;
+}
+
+#div_o_que_eu_faco img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#div_o_que_eu_estou_aprendendo{
+    background-color: grey;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+#div_o_que_eu_estou_aprendendo div{
+    width: 350px;
+    margin: auto;
+}
+
+#div_o_que_eu_estou_aprendendo img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#div_onde_quero_chegar{
+    background-color: grey;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+#div_onde_quero_chegar div{
+    width: 350px;
+    margin: auto;
+}
+
+#div_onde_quero_chegar img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+}
+
+footer div{
+    width: 500px;
+    margin: auto;
+}
+
+footer div img{
+    width: 100px;
+    height: 100px;
+    padding: 0px 30px ;
+}

@@ -1,0 +1,18 @@
+Os tipos de dados em javascript são 3 String, Number e Boolean.
+Exemplo de cada uma
+String
+const nome = "Lucas";
+
+Number
+let idade = 23;
+
+Boolean
+console.log(3 > 5);
+
+temos também os tipos
+null e undefined
+Esses tipos de dados são os tipos que não queremos muito ver em nossas aplicações, pois null se trata de algo realmente nulo e
+undefined significa geralmente que uma variável ainda não recebeu nenhum valor, observe um exemplo:
+let qualquerCoisa;
+console.log(qualquerCoisa); // no terminal -> undefined
+Tivemos undefined como retorno pois a variável foi criada porém sem nenhum valor atribuído a ela.

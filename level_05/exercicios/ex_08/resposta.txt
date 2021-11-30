@@ -1,0 +1,12 @@
+A regra é definir as variáveis dentro de :root {} com -- antes do nome que você vai dar a ela
+:root {
+    --cor-primaria: #333;
+}
+
+
+Segue abaixo um exemplo de utilização, aí fazendo assim com variavel para todos os p do html 
+receberá  a cor #333
+p {
+    color: var(--cor-primaria);
+    text-align: center;
+}

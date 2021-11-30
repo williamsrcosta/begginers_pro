@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+div{
+    margin: 16px auto;
+    padding: 16px 16px;
+    width: 500px;
+    color: white;
+    background-color: #994396;
+}
+
+body{
+
+    background-color: #d3cfcf;    
+}

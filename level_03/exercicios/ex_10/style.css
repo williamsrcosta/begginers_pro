@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+div{
+    background-color: #dacc52;
+    margin: 16px auto;
+    padding: 16px 16px;
+    width: 500px;
+}
+
+#bt1{
+    margin: 10px;
+    width: 100px;
+    height:100px;
+}
+
+#bt2{
+    margin: 10px;
+    width: 100px;
+    height:100px;
+}
+
+#bt3{
+    margin: 10px;
+    width: 100px;
+    height:100px;
+}
+
+#bt4{
+    margin: 10px;
+    width: 100px;
+    height:100px;
+}
