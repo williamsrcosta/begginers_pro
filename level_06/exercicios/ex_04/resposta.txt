@@ -1,0 +1,25 @@
+Repositório Remoto x Repositório Local:
+Quando falamos de diferentes repositórios podemos ter os locais, e os remotos, cada qual tem suas vantagens e suas
+desvantagens, vamos abordar aqui algumas dessas qualidades de cada um dos tipos de repositórios:
+Repositório Local:
+Vantagens
+1. Dados armazenados localmente.
+2. Provavelmente já terá funcionalidades armazenadas como o node_modules e outras dependências da aplicação.
+3. É só ligar o Computador e acessar os dados.
+Desvantagens
+1. Ocupa grande espaço na memória caso tenha dependências ou pastas grandes.
+2. Caso seu local de armazenamento do computador ou servidor pare de funcionar, provavelmente você irá perder seu
+projeto inteiro.
+3. Localmente só uma pessoa trabalha no projeto por vez.
+Repositório Remoto:
+Vantagens
+1. Dados armazenados em Nuvem.
+2. Caso seu local de Armazenamento local pare de funcionar, você conseguirá acessar os dados de um projeto de outro
+computador.
+3. Varias pessoas conseguem acessar este projeto ao mesmo tempo.
+4. Não ocupam espaço de armazenamento local.
+Desvantagens
+1. Caso o servidor da Nuvem estiver offline, você provavelmente não irá conseguir acessar este projeto.
+2. Você pode ter seus dados da aplicação roubados caso um Hacker invada o servidor.
+3. Erros de versionamento são mais comuns que deveriam ser, seja por uma atualização que não foi enviada ou por
+consumo errôneo dos dados.

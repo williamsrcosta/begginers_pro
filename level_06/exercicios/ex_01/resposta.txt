@@ -1,0 +1,7 @@
+Acredito que a identificação sequencial, a maneira que a computação identificou
+para se fazer uma chave única, o que é uma chave única é um valor que nunca se repete
+e usando identificação sequencial, vc transforma um registro um dado 
+que não haverá repetição com nenhum outro, podendo ser separado
+catalogado e diferenciado dos demais, assim suas buscas de dados vai ter
+um correspondente unico, por exemplo um cadastro de produtos onde o codigo 
+do produto é um sequencial.

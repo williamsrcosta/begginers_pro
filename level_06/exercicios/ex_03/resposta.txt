@@ -1,0 +1,8 @@
+O sistema de versionamento Git, trabalha com uma estrutura de branches, que são ramificações do projeto em questão. Cada
+branch é responsável por gerir e versionar uma determinada parte ou função de um projeto, evitando problemas de superposição
+de código, caso um ou mais desenvolvedores estejam trabalhando em um mesmo projeto ao mesmo tempo.
+Imagine que você e mais dois colegas estejam trabalhando em um mesmo projeto, caso um de vocês altere algum arquivo do
+projeto, terão trabalho em identificar os arquivos que foram alterados, e unificar os três projetos quando forem entregar o trabalho
+final, para resolver este problema, o sistema Git utiliza os branches para anotar e monitorar os arquivos que foram alterados em
+cada uma das ramificações do projeto, dessa forma, você e seus colegas podem trabalhar no mesmo projeto e o Git fará o
+trabalho de identificar quais arquivos foram alterados em cada uma das branches.

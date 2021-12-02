@@ -1,0 +1,6 @@
+A possibilidade de ter várias pessoas trabalhando ao mesmo tempo em um único
+código sem a ocorrência de falhas é uma possibilidade que existe por causa do versionamento. Por meio de uma metodologia
+adequada, os profissionais colaboram uns com os outros, ainda que o responsável pela tecnologia da informação esteja ausente.
+Enfim, agora você já sabe por que o versionamento de software é tão importante e entendeu um pouco mais sobre o tema. Esse
+processo de controle de versões é um sistema para o registro das alterações executadas nos softwares, que torna possível o
+acompanhamento rigoroso das melhorias e novas ferramentas que são criadas.
