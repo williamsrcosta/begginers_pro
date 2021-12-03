@@ -1,0 +1,11 @@
+GitHub é um recurso de programação cada vez mais popular usado para compartilhamento de código. É um site de rede social
+para programadores que muitas empresas e organizações usam para facilitar o gerenciamento de projetos e a colaboração nos
+mesmos. De acordo com estatísticas coletadas em outubro de 2020, é o host de código-fonte mais proeminente, com mais de 60
+milhões de novos repositórios criados em 2020 e ostentando mais de 56 milhões de desenvolvedores no total.
+
+Para mim o github, é uma tecnologia na nuvem, que a partir da criação de um repositorio, nada
+mais é que como que se fosse uma pasta no windows, ele salva os arquivos na nuvem e cria um
+versionamento dos arquivos, fazendo assim marcações de linha de tempo dentro do codigo onde é possivel
+saber onde o programa estava como ficou, podendo assim fazer ajustes e até fazer roolback de um arquivo,
+também é possivel a partir das branchs que varios colaboradores, trabalhem ao mesmo tempo,
+gerando uma confiabilidade muito maior no codigo.

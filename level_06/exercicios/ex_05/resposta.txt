@@ -1,0 +1,17 @@
+Criar um novo repositorio
+
+Iniciar o git na sua maquina
+
+git init
+
+dar um gitclone do repositorio  na sua maquina para pegar o 
+repositorio correto
+
+git clone e o caminho do repositorio no git
+
+dar um pull no projeto
+git add .
+git commit -m "mensagem do commit"
+
+
+quando fizer alguma alteração dar o push

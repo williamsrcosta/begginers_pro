@@ -1,0 +1,17 @@
+Um programador back end, é aquele que trabalha atras dos codigos.
+Ele trabalha com regra de negocio, banco de dados, e geração de api para o front end poder usar.
+Existem diferentes linguagens backend como Advpl Pyton c++.
+eles fazem aquilo que o programador front end tem preguiça de fazer.kkkkkk
+
+A área de Back end é também muito valorizada dentro do mercado de TI e todas as empresas de tecnologia web precisam de um
+desenvolvedor que conheça de back-end. Também há muita flexibilidade com as diversas áreas para trabalhar, podendo trabalhar
+desenvolvendo regras de negócio, melhorar a escalabilidade de aplicações (o quanto nosso serviço suporta em termos de
+requisições), melhorar a arquitetura do nosso sistema, entre outras áreas.
+Front end & Back end 3
+Para este caso é necessário um pouco mais de entendimento de varias linguagens de programação, não estaremos somente
+presos ao JavaScript, mas sim uma gama de outas linguagens como C#, PHP, Java, Python e muitas outras linguagens que não
+tem tanta ênfase na interação com o usuário como JavaScript, mas sim com o Back end, ou o lado do servidor como queira.
+Uma luz no fim do túnel... Apesar de JavaScript não ser prioritariamente uma linguagem de Back end, ainda podemos trabalhar
+muito bem com Back end utilizando o Node.js, uma runtime de javaScript desenvolvido com o Chrome V8 que facilita a vida do
+desenvolvedor JavaScript a conseguir mexer mais facilmente com o Back end.
+

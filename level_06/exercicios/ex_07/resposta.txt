@@ -1,0 +1,7 @@
+O Markdown é uma ferramenta de conversão de texto em HTML. É possível escrever usando texto simples de fácil leitura e fácil
+escrita e depois transformá-lo em HTML válido. Foi primeiramente moldado por John Gruber e Aaron Swartz e seu código fronte
+escrito em Perl. Podemos acessar o site oficial escrevendo na nossa aba do navegador readme.md
+Vamos ver uma estrutura básica de um código .md
+## Isso é equivalente ao h2 do html, usado para título
+Essa é uma maneira simples de deixar o texto **negrito** e palavras *itálicas* com Markdown.
+Como é fácil fazer um link para um site: [link para o site da Facul iv2](https://class.faculdadeiv2.com.br/)

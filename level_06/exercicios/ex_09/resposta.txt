@@ -1,0 +1,16 @@
+o front-end, foi a separação feita pela informatica, para separar e 
+colocar para esses desenvolvedores tudo aquilo em que o usuario vê o toca,
+por exemplo um web-site ou um aplicativo, usando lingaguens como.
+
+Html CSS ou JavaScript.
+
+Ele consegue fazer varios sites entre outras coisas.
+
+Um Front end Developer ou em português desenvolvedor front end é um engenheiro de software que implementa designs da web
+por meio de linguagens de codificação como HTML, CSS e JavaScript. Se você for para qualquer site, irá ver o trabalho de um
+desenvolvedor front end na navegação, nos layouts e na maneira como o site parece diferente em seu telefone (UI/UX).
+Os desenvolvedores front end são um dos mais procurados e de alta demanda no mercado, o motivo é obvio, a Internet está
+repleta de sites, existem cerca de 1,88 bilhões de sites na Internet, é necessário mão de obra para tudo isso. Algumas pesquisas
+do StackOverflow de 2020 apontam que desenvolvedores nos EUA ganhavam cerca de U$110.000 por ano. E temos uma
+demanda tão alta de gente especializada que só nos EUA existem mais de 14000 empregos buscando por desenvolvedores
+desse nicho.
