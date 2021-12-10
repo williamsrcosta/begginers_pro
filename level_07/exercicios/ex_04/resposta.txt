@@ -1,0 +1,13 @@
+Construtor
+O método constructor é um tipo especial de método para criar e iniciar um objeto criado pela 
+classe. Só pode existir um método especial com o nome "constructor" dentro da classe. 
+Um erro de sintáxe SyntaxError será lançado se a classe possui mais do que uma ocorrência 
+do método constructor.
+
+Um construtor pode usar a palavra-chave super para chamar o construtor de uma classe pai.
+
+this, dentro de classe
+Quando um método estático ou protótipo é chamado sem um objeto "this" configurado 
+(ou com "this" como boolean, string, number, undefined ou null), então o valor "this" 
+será undefined dentro da função chamada. Autoboxing não vai acontecer.
+O comportamento será o mesmo mesmo se escrevemos o código no modo não-estrito.

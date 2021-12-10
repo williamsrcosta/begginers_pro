@@ -1,0 +1,7 @@
+ao criar a variavel block, é chamado a classe paralalelepipedo com 3 
+passagens de parametros, ao passar por essa linha é criado a construção 
+de uma classe, pela contructor, e os 3 parametros passados atraves do this, 
+são alterados para largura altura e comprimento, aí é chamado o 
+Método protótipo: getter, onde ele chama a função calculateArea, 
+onde faz a recursividade da função calculatearea 
+que retorna altura X largura X comprimento, encerrando assim o programa

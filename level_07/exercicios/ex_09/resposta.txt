@@ -1,0 +1,20 @@
+é dado o start do processo
+ao entrar no processo de switch case, 
+é verificado o primeiro valor
+
+caso seja verdadeiro, executa o processo e vai para o final 
+
+caso seja falso, vai para o proximo switch case
+é verificado o segundo valor
+
+caso seja verdadeiro, executa o processo e vai para o final 
+
+caso seja falso, vai para o proximo switch case
+é verificado o terceiro valor
+
+caso seja verdadeiro, executa o processo e vai para o final 
+
+caso seja falso, vai para o proximo switch que no caso é o default, quando nenhuma
+condição case é igual a true e ela é executada.
+
+executa o processo e vai para o final 

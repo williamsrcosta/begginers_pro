@@ -1,0 +1,2 @@
+Um erro de sintáxe SyntaxError será lançado 
+se a classe possui mais do que uma ocorrência do método constructor.

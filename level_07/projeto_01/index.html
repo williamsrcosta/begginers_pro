@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias Bobas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <form name="dados">
+        <div id="informehistoria">
+            <img src="imagens/numero1.png" alt="numero1" id="imgnum1">
+            <h1>Informações da História</h1>
+        </div>
+        <div>
+            <label for="nome">Nome Protagonista</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite Nome Protagonista" required>            
+        </div>
+        <div>
+            <label for="monstros">Monstros</label>
+            <select id="monstros">
+                <optgroup label="Monstros">
+                <option value="Zumbi">Zumbi</option>
+                <option value="Dragão">Dragão</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="especie">Espécie Protagonista</label>
+            <select id="especie"> 
+                <optgroup label="especie">
+                <option value="Golfinho">Golfinho</option>
+                <option value="Baleia">Baleia</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="armamento">Armamento</label>
+            <select id="armamento"> 
+                <optgroup label="armamento">
+                <option value="Varinha Mágica">Varinha Mágica</option>
+                <option value="Espada">Espada</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="local">Local da História</label>
+            <select id="local"> 
+                <optgroup label="Local">
+                <option value="Disney Word">Disney Word</option>
+                <option value="Beto Carrero Word">Beto Carrero Word</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="acidente">Acidente Ocorrido</label>
+            <select id="acidente"> 
+                <optgroup label="Acidente">
+                <option value="Fissura Nuclear">Fissura Nuclear</option>
+                <option value="Queda de Meteoro">Queda de Meteoro</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <input type="button" value="Monte sua História" id="btnhistoria">
+        </div>
+    </form>
+
+    <section id="sechistoria">
+
+        <div id="criaHistoria">
+            <p id="geraHistoria"></p>
+        </div>
+
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+
+</html>

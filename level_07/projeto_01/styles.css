@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*, input, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*background-color: #5d0d7c;*/
+    background: linear-gradient(to right, #7f007f, #030003);
+    background-size: cover
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+form {
+    
+    background: linear-gradient(to bottom, #6f32fd, 10%, #030107);
+    width: max-content;
+    margin: auto;
+    margin-top: 1.6rem;
+    padding: 3.2rem;
+    border-radius: 5%
+}
+
+select {
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 3.2rem;
+    padding: 0.8rem;
+    border: 0;
+    font-size: 2.2rem;
+    width: 500px;
+    border-radius: 5%
+    }
+
+form div{
+
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+form label{
+    margin: 0.5em 0;
+    color: #ffffff;
+}
+
+input {
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 3.2rem;
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 0.4rem;
+    font-size: 2.2rem;
+    width: 500px;
+    
+}
+
+input[type=button]{
+    text-align: center;
+}
+
+label {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#btnhistoria {
+    width: 100%;
+    border: 0;
+    font-size: 2.4rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    background-color: #19d6e4;
+    cursor: pointer;
+
+}
+
+form div input button:hover {
+    filter: brightness(0.95);
+}
+
+#sectionlista{
+
+    font-size: 20px;
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+#imgnum1{
+    width: 30px;
+    height: 30px;
+    margin: 0px 12px 0px 0px;
+}
+
+#informehistoria{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+#sechistoria{
+
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#criaHistoria{
+    
+    display: none;
+    width: 800px;
+    height: 590px;
+    font-size: 30px;
+    border-style:solid ;
+    border-width: 05px;
+    border-color: #ffffff;
+    border-radius: 8%;
+    padding: 20px;
+    color: #ffffff;
+
+}

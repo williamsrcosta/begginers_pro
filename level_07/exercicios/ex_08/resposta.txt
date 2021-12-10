@@ -1,0 +1,5 @@
+Na vida real temos pais e filhos, para que um filho exista, os pais tem que 
+existir antes deles, quando falamos de Classes filhas
+em JavaScript não é diferente, precisamos de um pai e de um filho, neste 
+caso utilizamos 'extends' para saber a qual pai pertence tal classe caso 
+isso seja necessário

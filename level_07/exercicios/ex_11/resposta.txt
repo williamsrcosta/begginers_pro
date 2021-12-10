@@ -1,0 +1,17 @@
+setTimeout
+
+O setTimeout() do WindowOrWorkerGlobalScopemixin (e seu sucessor Window.setTimeout()) define
+um cronômetro que executa uma função ou parte do código especificado quando o cronômetro
+expira.
+
+setInterval
+
+O método setInterval() oferecido das interfaces Window e Worker, repetem chamadas de funções or
+executam trechos de código, com um tempo de espera fixo entre cada chamada. Isso retorna um ID
+único para o intervalo, podendo remove-lo mais tarde apenas o chamando clearInterval(). Este
+metodo é definido pelo mixin WindowOrWorkerGlobalScope.
+
+clearInterval
+
+O método clearInterval () limpa um cronômetro definido com o método setInterval () . O valor de ID
+retornado por setInterval () é usado como o parâmetro para o método clearInterval ()

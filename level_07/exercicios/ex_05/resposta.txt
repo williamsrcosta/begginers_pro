@@ -1,0 +1,6 @@
+O método constructor é um tipo especial de método para criar e iniciar um objeto 
+criado pela classe. Só pode existir um método especial com o nome 
+"constructor" dentro da classe.
+
+Um construtor pode usar a palavra-chave super para chamar o construtor de uma 
+classe pai.

@@ -1,0 +1,4 @@
+é retornado o chamado pq nesse fonte, foi esquecido de colocar o break após os 
+cases, onde ele não para e continua a execução, gerando esse erro.
+
+para concertar o fonte, precisa colocar o break em cada case.
