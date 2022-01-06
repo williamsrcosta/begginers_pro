@@ -1,0 +1,31 @@
+Web Workers são bastante úteis em alguns casos, mas assim como todas as tecnologias, têm seu lado 
+positivo e negativo. Por exemplo, quando utilizamos Web Workers não é possível acessar a DOM, 
+não é possível alterar a UI com Web Workers. Desta maneira, não poderíamos deixar o código de 
+círculos que vimos mais acima assíncrono desta maneira. Outro grande problema é que, apesar de 
+executar códigos à parte, este tipo de ferramenta é ainda síncrono. Ou seja, Web Workers ainda 
+tem uma linha de execução que podem sofrer blockings por baixo dos panos. Vamos ver a seguinte 
+situação:
+
+Thread Principal: Tarefa 1 ⇒ Tarefa 2 ⇒ Tarefa 4
+
+Web Worker: Tarefa 3 ⇒ | |
+
+No exemplo acima, temos que a Tarefa 4 aguarda resultado da tarefa 2, e ao mesmo tempo 
+da tarefa 3. E isso é um grande problema, pois, não podemos garantir que a tarefa 3 irá terminar 
+ao mesmo tempo que a tarefa 2. E provavelmente isso irá nos retornar um erro chato que dirá que 
+não existe tais dados para trabalhar ou algo do tipo. É ai que entra a programação assícrona.
+Para que possamos concertar os problemas causados pela falta de multithreads precisamos usar 
+alguns recursos como Promises para evitar blocking na página, funciona mais ou menos da seguinte 
+forma:
+
+Thread Principal: Tarefa A Tarefa B
+
+Promise: |————— operação assíncrona ————|
+
+O que acontece nesse caso é que uma tarefa é "jogada" para um outro local de execução e quanto 
+tiver resposta retornará a execução para a próxima função.
+O design de aplicações e softwares atualmente gira em torno de uso de programação assíncrona, 
+permitindo que os programas façam mais coisas ao mesmo tempo. Ao usar uma API você encontrará 
+casos em que a única maneira de manter a aplicação saudável será por meio de códigos assíncronos. 
+Precisamos nos acostumar a escrever códigos assíncronos, afim de nos tornarmos programadores 
+melhores e mais versáteis.

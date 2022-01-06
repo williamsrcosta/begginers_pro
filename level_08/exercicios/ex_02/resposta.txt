@@ -1,0 +1,14 @@
+let myDate;
+for(let i = 0; i < 10000000; i++){
+let date = new Date();
+myDate = date;
+}
+
+console.log(myDate)
+
+Resp: Esse codigo não é assincrono que como pode ser visto não tem as funções Async, pois ela que 
+vai informar se uma função é assincrona, como podemos verificar, é declarada uma variavel,
+mydate onde é feito um for que vai rodar um milão de vezes, criando uma variavel date, que
+recebe um newdate, e depois a variavel myDate recebe a variavel date, por um milhão de vezes é feito
+essa repetição, onde após o término do for, é mostrado um console log da varaivela mydate.
+a ultima recebida no for.

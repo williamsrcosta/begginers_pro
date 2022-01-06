@@ -1,0 +1,15 @@
+a fnção de Callbacks, veio na programação para resolver problemas de programações sincronas, 
+que dependendo da velocidade de sua execução, uma função mais rápida execute antes da mais demora.
+Sendo que a mais rapida depende da primeira execucação podendo fazer com que o seu codigo,
+execute de forma errada não trazendo valor que é esperado, para resolver isso a Callbacks, são
+utilizadas onde você pode utilizar esse principio de programação para ajustar o codigo e fazer
+que as funções conversem entre si e aguardem a execucação do codigo de maneira correta, não
+encavalhando o processamento da sua aplicação front end.
+Onde com esse procedimento de Callbacks, é possivel fazer validações e tratamentos de erros,
+por exemplo num programa que vc precisa fazer o download de uma imagem e depois processar a imagem,
+é importante que a regra de negocio seja executada corretamente que é 1-) baixar a imagem, 
+2-) processar a imagem, se essa regra de negocio é quebrada temos um problema, pois o programa,
+não vai funcionar corretamente, com as Callbacks é possivel resolver esse problema e ainda fazer
+tratativas de erros ou validações no programa.
+Temos dois tipos de Callbacks. as Sincronas que espera o codigo ser executado linha a linha, ou as
+assincronas onde com uma sintaxe, vc dispara multithreads de execução no codigo.

@@ -1,0 +1,1 @@
+Para que seja possível evitar esse tipo de estrutura, devemos utilizar Promises ou async/await

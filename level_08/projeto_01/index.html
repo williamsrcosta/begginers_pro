@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <form name="dados">
+        <div>
+            <label for="artista">Artista ou Música</label>
+            <input type="text" name="artista" id="artista" required>
+        </div>
+
+        <div>
+            <input type="button" value="Buscar" id="btnbuscar">
+        </div>
+        
+    </form>
+    <script src="scripts.js"></script>
+</body>
+<div id="fundo-modal"></div>
+    <div id="resultado">
+        <div id="conteudo-modal">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Música</th>
+                        <th>Artista</th>
+                        <th>Duração</th>
+                        <th>Ranking</th>
+                        <th>Álbum</th>
+                        <th>Foto artista</th>
+                        <th>Foto álbum</th>
+                        <th>Play</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyResult"></tbody>
+            </table>
+        </div>
+    </div>
+
+</html>

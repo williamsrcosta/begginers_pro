@@ -1,0 +1,16 @@
+Para mim thread é uma conexão que o programa faz, para executar o codigo fonte desenvolvido.
+Então a partir do momento que é dado o start em uma programação é liberada uma thread, no caso do
+javaScript ele abre uma thread então ele é monoexecução, assim sendo se faz necessário terminar 
+uma linha ou um trecho de codigo para fazer o proximo e assim sucessivamente.
+Assim sendo muitas vezes uma função mais rapida em matéria de processamento de dados que não tem 
+dependencia com uma função pai, precisa esperar uma outra ser executada assim para iniciar o seu
+funcionamento, causando muitas vezes gargalô no codigo, umas palavras bonitas são freeze, ou seja
+uma tela congelada, onde um processamento demorado como por exemplo consumo de Api's, ou for muito
+longos causarem lentidão no codigo.
+Isso pode ser contornado com programação MultiThreads, onde é aberta mais de uma conexão por 
+codigo fonte, assim sendo o seu codigo pode fazer varias coisas ao mesmo tempo, assim ganhando
+performance de execução de codigo evitando travas, essas multithreads são liberas pela função
+Async e Await, elas fazem as tratativas de threads deixando seu codigo mais performático,
+mais logicamente existe a sintaxe correta para usar essas programações, e o total conhecimento do
+programador em sua utilização, pois o que pode te ajudar pode te complicar também, portanto use
+com moderação....rsrs.

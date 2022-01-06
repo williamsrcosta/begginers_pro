@@ -1,0 +1,19 @@
+Sua estrutura básica pode ser entendida como:
+
+asyncFunction(function(){
+    asyncFunction(function(){
+        asyncFunction(function(){
+            asyncFunction(function(){
+                asyncFunction(function(){
+                    ....
+                });
+            });
+        });
+    });
+});
+
+
+Olhe o codigo acima e um código de “amostra” abaixo e então saberá porque é chamado de “inferno”. 
+Não é apenas sujo. 
+
+Por isso devemos evitar esse tipo de estrutura pois não sabemos de onde vem um resultado ou um erro.

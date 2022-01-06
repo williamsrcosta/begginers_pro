@@ -1,0 +1,7 @@
+Um Promise pode ter 3 estados:
+
+1-) pending (pendente) → Estado inicial, que não foi realizada nem rejeitada.
+
+2-) fulfilled (realizada/resolvida) → Sucesso na operação.
+
+3-) rejected (rejeitado) → Falha na operação.
