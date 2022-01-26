@@ -1,0 +1,25 @@
+A Zona Morta Temportal ou Temporal Dead Zone (TDZ), faz referência a 
+um termo da programação pouco discutido, todavia, com grande impacto 
+na hora da criação de aplicações, basicamente entramos aqui um nível 
+mais a fundo quando falamos do interpretador de JavaScript. Neste 
+ponto do curso você já sabe bastante coisa sobre programação com
+JavaScript, mas, alguns pontos ainda podem parecer um pouco abstrato 
+ou você nem mesmo pensou sobre a ocorrência de algumas coisas, ai que 
+entra o TDZ, algo que deveria estar na mente de todo programador 
+JavaScript.
+Bom, vamos lá, começando pelo básico, sabemos que JavaScript é uma 
+linguagem de programação voltada para o scripting, esses idiomas de 
+scripting não são destinados idiomas em larga escala, desta maneira, 
+tanto o código, bibliotecas e recursos concentram-se basicamente na 
+realização de pequenas tarefas rápidas. Desta maneira podemos dizer 
+que o JavaScript aceita algumas coisas que não fariam sentido em 
+algumas outras linguagens como C por exemplo, entra ai a questão do 
+TDZ, vamos mostrar a teoria de forma prática:
+
+Exemplo:
+function minhaFuncao() {
+    console.log(nome);
+    var nome = 'Faculdade iv2';
+}
+
+minhaFuncao();

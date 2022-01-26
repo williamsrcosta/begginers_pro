@@ -1,0 +1,21 @@
+Os rest parameters nada mais são que parâmetros que passamos dentro de uma função, todavia, 
+quando remetemos ao termo rest parameters estamos falando de um número indefinido de parametros
+que estão sendo passados ao mesmo tempo.
+
+Quando abrimos os parênteses de uma função podemos implementar parâmetros, desta maneira podemos 
+definir estes rest parameters da seguinte forma:
+function funcaoExemplo(a, b, ...parametrosRest) {
+//...
+}
+Note: temos que nos atentar a duas coisas quando determinamos rest parameters.
+1. Utilizamos o prefixo ... antes de chamar os rest parameters;
+2. Os rest parameters sempre são o último parâmetro fornecido como parâmetro;
+
+Exemplo
+
+function testandoParametrosRest(...parametrosRest) {
+    console.log(parametrosRest.length);
+}
+testandoParametrosRest();
+testandoParametrosRest(5);
+testandoParametrosRest(5, 6, 7);

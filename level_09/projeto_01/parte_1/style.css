@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*, input, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: #000000
+}
+
+form {
+    background-color: #868080;
+    width: max-content;
+    margin: auto;
+    margin-top: 1.6rem;
+    padding: 3.2rem;
+    border-radius: 5%
+}
+
+form div{
+
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+form label{
+    margin: 0.5em 0;
+}
+
+input {
+    
+    margin-bottom: 3.2rem;
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 0.4rem;
+    font-size: 2.2rem;
+    width: 500px;
+    
+}
+
+label {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#btnbuscar {
+    width: 100%;
+    border: 0;
+    font-size: 2.4rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    background-color: #19d6e4;
+    cursor: pointer;
+
+}
+
+form div input button:hover {
+    filter: brightness(0.95);
+}
+
+input[type=button]{
+    text-align: center;
+}
+
+table {
+    /* border-collapse: collapse; */
+    font-size: 1.6rem;
+    width: 100%;
+    color: #fff;
+    margin-top: 16px;
+}
+
+th, td {
+    border-bottom: 0.5px solid #e4e4e4;
+    padding: 4px 16px;
+    text-align: center;
+}
