@@ -14,6 +14,8 @@ let mechanics          = ''
 let attack             = ''
 let health             = ''
 let type               = ''
+let flavor             = ''
+let artist             = ''
 let carregando         = ''
 
 document.forms.dados.btnbuscar.addEventListener("click", function (e) {
@@ -36,6 +38,8 @@ document.forms.dados.btnbuscar.addEventListener("click", function (e) {
     attack             = ''
     health             = ''
     type               = ''
+    flavor             = ''
+    artist             = ''
     carregando         = ''
 
     try {
@@ -107,9 +111,11 @@ async function requisicao(nome) {
                     attack      = String(card.attack      !== null && card.attack      !== undefined ? card.attack      : '') 
                     health      = String(card.health      !== null && card.health      !== undefined ? card.health      : '') 
                     type        = String(card.type        !== null && card.type        !== undefined ? card.type        : '') 
+                    flavor      = String(card.flavor      !== null && card.flavor      !== undefined ? card.flavor      : '') 
+                    artist      = String(card.artist      !== null && card.artist      !== undefined ? card.artist      : '') 
 
                     console.log('entrei no if')
-                    objCartas = new GeraobjCartas(card.name,card.cardSet,cost,playerClass,text,race,mechanics,card.img,attack,health,type)
+                    objCartas = new GeraobjCartas(card.name,card.cardSet,cost,playerClass,text,race,mechanics,card.img,attack,health,type,flavor,artist)
                     vetorCartas.push(objCartas);
                     
                 }
@@ -130,7 +136,7 @@ async function requisicao(nome) {
     return 'ok'
 }
 
-function GeraobjCartas(name,cardSet,cost,playerClass,text,race,mechanics,img,attack,health,type) {
+function GeraobjCartas(name,cardSet,cost,playerClass,text,race,mechanics,img,attack,health,type,flavor,artist) {
 
     this.name        = name
     this.cardSet     = cardSet
@@ -143,6 +149,8 @@ function GeraobjCartas(name,cardSet,cost,playerClass,text,race,mechanics,img,att
     this.attack      = attack
     this.health      = health
     this.type        = type
+    this.flavor      = flavor
+    this.artist      = artist
 
 }
        
@@ -193,6 +201,8 @@ function varrerVetor(vetorCartas){
                                                 <h5><b>Ataque:           </b> ${vetorCarta.attack}      </h5>
                                                 <h5><b>Atributo de vida: </b> ${vetorCarta.health}      </h5>
                                                 <h5><b>Tipo:             </b> ${vetorCarta.type}        </h5>
+                                                <h5><b>História:         </b> ${vetorCarta.flavor}      </h5>
+                                                <h5><b>Artista:          </b> ${vetorCarta.artist}      </h5>
 
                                                 </div>
                                             </div>

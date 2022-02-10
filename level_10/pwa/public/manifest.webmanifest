@@ -1,0 +1,22 @@
+{
+    "short_name": "Tarefas",
+    "name": "Lista de tarefas",
+    "icons": [
+        {
+            "src": "./assets/images/icone_menor_128x128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./assets/images/icone_maior_512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "description":"Essa é uma aplicação onde você pode adicionar e remover tarefas",
+    "start_url": "/public/index.html",
+    "background_color": "#60ff9d",
+    "display": "standalone",
+    "scope": "/public",
+    "theme_color": "#60ff9d"
+}

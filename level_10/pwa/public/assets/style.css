@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 16px;
+}
+
+form input {
+    padding: 4px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 6px 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #60ff9d;
+    font-weight: bold;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
