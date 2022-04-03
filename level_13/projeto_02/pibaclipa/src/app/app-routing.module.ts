@@ -1,8 +1,14 @@
+// import { IgrejasComponent } from './igrejas/igrejas.component';
+// import { RouterModule, Routes } from '@angular/router';
+// import { LoginPageComponent } from './login-page/login-page.component';
+// import { AuthGuard } from './auth/auth.guard';
+// import { NgModule } from '@angular/core';
+
 import { IgrejasComponent } from './igrejas/igrejas.component';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { AuthGuard } from './auth/auth.guard';
-import { NgModule } from '@angular/core';
 
 const routes: Routes = [
   {
